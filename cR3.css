@@ -29,7 +29,7 @@ h1 {
     
 }
 
-/* Create three equal columns that floats next to each other */
+/* Style the Column */
 .column {
     float: left;
     width: 33.33%;
@@ -44,7 +44,7 @@ h1 {
 }
 
 
-/* Clear floats after the columns */
+
 .row {
     text-align: center;
     position: relative;
@@ -55,7 +55,7 @@ h1 {
     clear: both;
 }
 
-/* Style the footer */
+
 .footer {
     background-color: #F4F4F4;
     padding: 10px;
@@ -73,7 +73,7 @@ h1 {
     cursor: pointer;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media (max-width: 600px) {
     .column {
         width: 100%;
