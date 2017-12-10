@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    height: 75px;
+    background-color: #F4F4F4;
+    color: #F77D32;
+    font-size: 28px;
+}
+}
+/* Style the header */
+.header {
+    overflow: hidden;
+    height: 75px;
+    background-color: #F4F4F4;
+    color: #F77D32;
+    font-size: 28px;
+}
+h1 {
+    text-align: center;
+    color: #04192d;
+}
+#box{
+    background-color: #00A78F;
+    padding-top: 10px;
+    
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+}
+.column p {
+    font-size: 20px;
+    color: #F4F4F4;
+    font-family: akrobat;
+
+}
+
+
+/* Clear floats after the columns */
+.row {
+    text-align: center;
+    position: relative;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #F4F4F4;
+    padding: 10px;
+    text-align: center;
+}
+#check {
+    text-align: center; 
+    background-color: #00A78F;
+    color: #04192d;
+    font-size: 20px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
